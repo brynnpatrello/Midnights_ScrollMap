@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scrollmap Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    
+    <link rel="stylesheet" href="./lib/scrollmap.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Niconne&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <div class="content">
+        <!--title block, background image is title image-->
+        <div class="row" style="background-image:url(img/FloridaTitle.png)">
+            <div class="center title">
+                <!--title text-->
+                <h1>Midnights Map</h1>
+                <!--subtitle or author-->
+                <p class="author">(Brynn's Version)</p>
+                <p class="author">A Taylor Swift Inspired Map by Brynn Patrello</p>
+            </div>
+        </div>
+        <!--style intro-->
+        <div class="row">
+            <div class="center">
+                <p>My style is called <b>Midnights (Brynn's Version)</b> and is based on Taylor Swift's grammy award-winning album titled <i>Midnights</i>.</p>
+                <img class="half-width" src="img/albumcover.jpeg">
+            </div>
+        </div>
+        <!--inspo pics-->
+        <div class="row">
+            <div class="center">
+                <p class="moodboardtext">For inspiration, I referred to Swift's <i>Midnights</i> album cover variants, music videos, and promotional materials.</p>
+                <img class="fit" src="img/TSMoodBoard.png">
+        </div>
+        <!--color palette-->
+        <div class="row">
+            <div class="center">
+                <img class="fitwpadding" src="img/tscolorpalette.svg">
+                <p class="center">This lead me to use the above <b>color</b> palette as the basis for my design- drawing from the analogous color scheme of blues, purples, and reds.</p>
+            </div>
+        </div>
+        <!--form-->
+        <div class="row">
+            <div class="left">
+                <img class="fit" src="img/florida_haze.png">
+            </div>
+            <div class="right">
+                <p class="vert-center">For the map's <b>form</b>, the album uses clean lines, which I kept mostly consistent for this map.<br/>
+                In cases where I wasn't consistent, I tried to embody the blurry-ish, hazy form, inspired by the song on the album, <i>Lavender Haze</i>.<br/>
+                This is found in two places: the city labels have a light purple halo- dark enough to be legible, but light enough to feel hazy, and 
+                admin-1 boundaries, using a lighter version of the boundary purple color.</p>
+            </div>
+        </div>
+        <!--jewel motif-->
+        <div class="row">
+            <div class="left">
+                <p class="vert-center">Also related to <b>form</b>, and inspired by a song on the album named <i>Bejeweled</i>, I used jewel iconography for some point features.<br/>
+                The gold gem acts as a shield would, for road labeling.<br/>
+                The diamond serves as symbology for points of interest.</p>
+            </div>
+            <div class="right">
+                <img class="fit" src="img/jewelsonmap.jpg">
+            </div>
+        </div>
+        <!--type-->
+        <div class="row">
+            <div class="left">
+                <img class="fit" src="img/fontpic.jpg">
+            </div>
+            <div class="right">
+                <p class="vert-center">Luckily for me as the designer, <i>Midnights</i> uses the font family "Helvetica," which is well-established with various styles. 
+                    I used Helvetica as the <b>type</b> for this map.</p>
+            </div>
+        </div>
+        <!--texture-->
+        <div class="row">
+            <div class="center">
+                <img class="fit" src="img/albums_wgradients.jpg">
+                <p class="center"><br/>For <b>texture</b>, I was limited by the capabilities of Mapbox. In an ideal scenario, I would try to 
+                    apply the gradient effect that she uses across all her <i>Midnights</i> album variants.</p>
+            </div>
+        </div>
+        <!--bootstrap carousel, centered-->
+        <div class="row">
+            <div class="center-wide">
+                <p>More detail is revealed as you zoom in, including the jewel icons and previously hidden layers.</p>
+                <!--slideshow of images, also known as a carousel-->
+                <!--remove "carousel-dark" if you want a lighter version of the carousel-->
+                <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <!--indicator buttons at the bottom of the carousel that show the total number of slides-->
+                    <div class="carousel-indicators">
+                        <!--there should be as many of these buttons as there are slides in your carousel-->
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <!--images in the carousel-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/USA_exp.png" class="w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/NYState_exp.png" class="w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/GreaterNYC_exp.png" class="w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/LesserNYC_exp.png" class="w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/CentralPark_exp.png" class="w-100" alt="...">
+                        </div>
+                    </div>
+                    <!--previous/next buttons that allow users to click from one slide to the next-->
+                    <button id="prev-button" class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button id="next-button" class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!--background images with text scrolling over them-->
+        <div class="scroll-container">    
+            <!--background images-->
+            <div class="background-item">
+                <!--data-slide property used to specify when the background should first-->
+                <img src="img/KansasCity.png" data-slide="0" class="fit vert-center">
+                <img src="img/Destin.png" data-slide="1" class="fit vert-center hidden">
+                <img src="img/London.png" data-slide="2" class="fit vert-center hidden">
+                <img src="img/Paris.png" data-slide="3" class="fit vert-center hidden">
+                <img src="img/StTropez.png" data-slide="4" class="fit vert-center hidden">
+                <img src="img/Vegas.png" data-slide="5" class="fit vert-center hidden">
+                <img src="img/Windermere.png" data-slide="6" class="fit vert-center hidden">
+            </div>
+            <!--foreground text blocks-->
+            <div class="foreground-item no-event">
+                <div class="row">
+                    <div class="center background-transparent rounded">
+                        <p class="no-margin">Swift mentions various cities in her songs, let's check some of them out. Starting with...<br/>
+                        &#127926; Karma is the guy on the Chiefs, coming straight home to me &#127926;<br/>
+                        -<i>Karma (live)</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left background-transparent rounded">
+                        <p class="no-margin">&#127926; So you work your life away just to pay for a time-share down in Destin &#127926;<br/>
+                        -<i>Florida!!!</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center background-transparent rounded">
+                        <p class="no-margin">&#127926; For so long, London. Stitches undone. Two graves, one gun. I'll find someone. &#127926;<br/>
+                        -<i>So Long, London</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left background-transparent rounded">
+                        <p class="no-margin">&#127926; I was taken by the view like we were in Paris &#127926;<br/>
+                        -<i>Paris</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="right background-transparent rounded">
+                        <p class="no-margin">&#127926; I'd be just like Leo in St. Tropez &#127926;<br/>
+                        -<i>The Man</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left background-transparent rounded">
+                        <p class="no-margin">&#127926; Flexing like a Vegas acrobat, me and karma vibe like that &#127926;<br/>
+                        -<i>Karma</i></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left background-transparent rounded">
+                        <p class="no-margin">&#127926; Those Windermere peaks look like the perfect place to cry &#127926;<br/>
+                        -<i>The Lakes</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mapbox iframe-->
+        <div class="row sm-margin">
+            <div class="center-wide">
+                <p>Check out the full map!</p>
+                <iframe src="https://api.mapbox.com/styles/v1/brynnpatrello/cm2nz7mef008x01qigmancqb2.html?title=view&access_token=pk.eyJ1IjoiYnJ5bm5wYXRyZWxsbyIsImEiOiJjbTIwbGlraXgwN2lvMmpvYjUwNG1yZXRhIn0.DwYw7SaWVdvx0-p8rE2Uww&zoomwheel=true&fresh=true#13.26/41.8749/-87.63434" class="fit" style="height:600px"></iframe>
+            </div>
+        </div>
+        <!--text block-->
+        <div class="row no-margin">
+            <div class="center">
+                <div class="credits">
+                    <hr>
+                    <p><b>Credits:</b></p>
+                    <p>Map created with Mapbox Studio</p>
+                    <p>Data from openstreetmap</p>
+                    <p>Midnights Photoshoot: https://taylorswift.fandom.com/wiki/Midnights_photoshoot</p>
+                    <p>Jewel Icons: Flaticon/Freepik https://www.flaticon.com/packs/diamonds-and-gems-13?word=jewel</p>
+                    <p>Font Image: Proof Positive</p>
+                    <p>All other <i>Midnights</i> material is owned by Taylor Swift.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script type="text/javascript" src="./lib/scrollmap.js"></script>
+<script type="text/javascript" src="./lib/bootstrap.min.js"></script>
+
+</body>
+</html>
