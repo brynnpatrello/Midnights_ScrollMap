@@ -1,0 +1,33 @@
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica.ttf);
+}
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica-Bold.ttf);
+    font-weight:bold;
+}
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica-Oblique.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: helvetica;
+    src: url(Helvetica-BoldOblique.ttf);
+    font-style: italic;
+    font-weight:bold;
+
+}
+
+
+body{
+    font-family: helvetica;
+}
+p{
+    font-size:20px;
+}
+
+.title{
+    color: white;
+}

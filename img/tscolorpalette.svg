@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ebe7e4;
+      }
+
+      .cls-3 {
+        fill: #6b3533;
+      }
+
+      .cls-4 {
+        fill: #92b7c6;
+      }
+
+      .cls-5 {
+        fill: #9686a2;
+      }
+
+      .cls-6 {
+        font-family: 'helvetica';
+        font-size: 18px;
+      }
+
+      .cls-7 {
+        fill: #193550;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <g>
+        <rect class="cls-5" x="166.5" y="248.5" width="184.53" height="233"/>
+        <path d="M350.53,249v232h-183.53v-232h183.53M351.53,248h-185.53v234h185.53v-234h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="166.74" y="481.5" width="184.53" height="39.5"/>
+        <path d="M350.76,482v38.5h-183.53v-38.5h183.53M351.76,481h-185.53v40.5h185.53v-40.5h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-4" x="378.62" y="248.25" width="184.53" height="233"/>
+        <path d="M562.65,248.75v232h-183.53v-232h183.53M563.65,247.75h-185.53v234h185.53v-234h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="378.85" y="481.25" width="184.53" height="39.5"/>
+        <path d="M562.88,481.75v38.5h-183.53v-38.5h183.53M563.88,480.75h-185.53v40.5h185.53v-40.5h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="590.62" y="248.25" width="184.53" height="233"/>
+        <path d="M774.65,248.75v232h-183.53v-232h183.53M775.65,247.75h-185.53v234h185.53v-234h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="590.85" y="481.25" width="184.53" height="39.5"/>
+        <path d="M774.88,481.75v38.5h-183.53v-38.5h183.53M775.88,480.75h-185.53v40.5h185.53v-40.5h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-3" x="802.62" y="247.25" width="184.53" height="233"/>
+        <path d="M986.65,247.75v232h-183.53v-232h183.53M987.65,246.75h-185.53v234h185.53v-234h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="802.85" y="480.25" width="184.53" height="39.5"/>
+        <path d="M986.88,480.75v38.5h-183.53v-38.5h183.53M987.88,479.75h-185.53v40.5h185.53v-40.5h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-7" x="1014.62" y="247.25" width="184.53" height="233"/>
+        <path d="M1198.65,247.75v232h-183.53v-232h183.53M1199.65,246.75h-185.53v234h185.53v-234h0Z"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="1014.85" y="480.25" width="184.53" height="39.5"/>
+        <path d="M1198.88,480.75v38.5h-183.53v-38.5h183.53M1199.88,479.75h-185.53v40.5h185.53v-40.5h0Z"/>
+      </g>
+      <text class="cls-6" transform="translate(174 509)"><tspan x="0" y="0">#9686A2</tspan></text>
+      <text class="cls-6" transform="translate(385.83 509.17)"><tspan x="0" y="0">#92B7C6</tspan></text>
+      <text class="cls-6" transform="translate(597.83 509.17)"><tspan x="0" y="0">#EBE7E4</tspan></text>
+      <text class="cls-6" transform="translate(810.83 509.17)"><tspan x="0" y="0">#6B3533</tspan></text>
+      <text class="cls-6" transform="translate(1021.83 509.17)"><tspan x="0" y="0">#193550</tspan></text>
+    </g>
+  </g>
+</svg>
